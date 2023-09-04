@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyPhone</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="remember">Remember Password</string>
+    <string name="forgot">Forgot Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Don’t Have an Account? Sign Up</string>
+</resources>

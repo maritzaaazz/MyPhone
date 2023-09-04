@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="match_parent"
+        android:layout_height="554dp"
+        android:layout_marginTop="-180dp"
+        android:background="@drawable/rectangle" />
+
+    <ImageView
+        android:id="@+id/spaceship"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-225dp"
+        android:src="@drawable/spaceship2"/>
+
+    <TextView
+        android:id="@+id/buttonusername"
+        android:background="@drawable/rounded"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginTop="475dp"
+        android:layout_marginBottom="35dp"
+        android:drawablePadding="25dp"
+        android:paddingVertical="17dp"
+        android:paddingHorizontal="24dp"
+        android:drawableLeft="@drawable/baseline_people_alt_24"
+        android:text="@string/username"
+        android:fontFamily="@font/open_sans"
+        android:textAlignment="textStart"
+        android:textSize="12sp"
+        android:textColor="#555555"
+        android:backgroundTint="#F5F5F5"/>
+
+    <TextView
+        android:id="@+id/buttonpass"
+        android:background="@drawable/rounded"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginTop="530dp"
+        android:drawablePadding="25dp"
+        android:paddingVertical="17dp"
+        android:paddingHorizontal="24dp"
+        android:drawableLeft="@drawable/baseline_password_24"
+        android:drawableRight="@drawable/baseline_remove_red_eye_24"
+        android:text="@string/password"
+        android:fontFamily="@font/open_sans"
+        android:textAlignment="textStart"
+        android:textSize="12sp"
+        android:textColor="#555555"
+        android:backgroundTint="#F5F5F5"/>
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_crop_square_24"
+        android:checked="false"
+        android:layout_below="@id/buttonpass"
+        android:layout_marginHorizontal="38dp"
+        android:id="@+id/square"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/remember"
+        android:layout_alignBottom="@id/square"
+        android:layout_alignTop="@id/square"
+        android:textSize="12sp"
+        android:layout_below="@id/buttonpass"
+        android:paddingVertical="15dp"
+        android:layout_marginHorizontal="80dp"
+        android:fontFamily="@font/open_sans"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgot"
+        android:fontFamily="@font/open_sans"
+        android:textSize="12sp"
+        android:layout_below="@id/buttonpass"
+        android:layout_marginHorizontal="280dp"
+        android:paddingVertical="15dp"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#555555"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/login"
+        android:textAlignment="center"
+        android:textColor="#F5F5F5"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signup"
+        android:fontFamily="@font/open_sans"
+        android:textSize="12sp"
+        android:layout_below="@id/login"
+        android:layout_marginHorizontal="113dp"/>
+
+</RelativeLayout>
