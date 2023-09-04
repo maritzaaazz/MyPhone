@@ -20,46 +20,46 @@
         android:layout_marginTop="-225dp"
         android:src="@drawable/spaceship2"/>
 
-    <TextView
-        android:id="@+id/buttonusername"
-        android:background="@drawable/rounded"
+    <EditText
+        android:id="@+id/editTextUsername"
         android:layout_width="340dp"
         android:layout_height="50dp"
         android:layout_marginStart="35dp"
         android:layout_marginEnd="35dp"
         android:layout_marginTop="475dp"
         android:layout_marginBottom="35dp"
+        android:background="@drawable/rounded"
         android:drawablePadding="25dp"
         android:paddingVertical="17dp"
         android:paddingHorizontal="24dp"
         android:drawableLeft="@drawable/baseline_people_alt_24"
-        android:text="@string/username"
+        android:hint="Username"
         android:fontFamily="@font/open_sans"
         android:textAlignment="textStart"
         android:textSize="12sp"
         android:textColor="#555555"
         android:backgroundTint="#F5F5F5"/>
 
-    <TextView
+    <EditText
         android:id="@+id/buttonpass"
-        android:background="@drawable/rounded"
         android:layout_width="340dp"
         android:layout_height="50dp"
         android:layout_marginStart="35dp"
         android:layout_marginEnd="35dp"
         android:layout_marginTop="530dp"
+        android:background="@drawable/rounded"
         android:drawablePadding="25dp"
         android:paddingVertical="17dp"
         android:paddingHorizontal="24dp"
         android:drawableLeft="@drawable/baseline_password_24"
         android:drawableRight="@drawable/baseline_remove_red_eye_24"
-        android:text="@string/password"
+        android:hint="Password"
         android:fontFamily="@font/open_sans"
         android:textAlignment="textStart"
         android:textSize="12sp"
         android:textColor="#555555"
-        android:backgroundTint="#F5F5F5"/>
-
+        android:backgroundTint="#F5F5F5"
+        android:inputType="textPassword"/>
 
     <CheckBox
         android:layout_width="wrap_content"
@@ -69,6 +69,7 @@
         android:layout_below="@id/buttonpass"
         android:layout_marginHorizontal="38dp"
         android:id="@+id/square"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
